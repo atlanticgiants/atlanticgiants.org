@@ -1,0 +1,129 @@
+.🏄 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  &__title {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  &__mission-items {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+
+    &--alone {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  }
+
+  &__background-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+
+    &__frontground {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      background-color: black;
+      opacity: 0.4;
+    }
+
+    video {
+      width: 100%;
+      object-fit: cover;
+      min-height: 100%;
+    }
+  }
+
+  &__row {
+    width: 20%;
+    justify-content: center;
+    margin: 20px;
+
+    @media only screen and (min-width : 840px) {
+      width: 80%;
+      justify-content: space-between;
+      margin: 0;
+
+      &--top {
+        justify-content: center;
+      }
+
+      &--bottom {
+        width: 45%;
+      }
+
+      &:not(:first-child) {
+        margin-top: 40px;
+      }
+    }
+  }
+
+  &-row__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    
+    &--with-link {
+      cursor: pointer;
+      :after {
+        content: "➔";
+        position: absolute;
+        bottom: -1px;
+        right: -25px;
+        opacity: 0;
+        transform: translateX(-30px);
+        transition: all .4s;
+      }
+  
+      &:hover {
+        :after {
+          content: "➔";
+          position: absolute;
+          bottom: -1px;
+          right: -25px;
+          opacity: 1;
+          transform: translateX(0);
+          transition: all .4s;
+        }
+      }
+    }
+
+    &:not(:first-child) {
+      margin-top: 40px;
+    }
+
+    @media only screen and (min-width : 840px) {
+      &:not(:first-child) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__dot {
+    height: 40px;
+    width: 40px;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 12px;
+    opacity: 0.7;
+  }
+}

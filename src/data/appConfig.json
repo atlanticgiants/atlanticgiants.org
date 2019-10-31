@@ -1,0 +1,554 @@
+{
+  "navBar": [
+    {
+      "id": "quemSomos",
+      "title": "Quem somos",
+      "href": "/quem-somos"
+    },
+    {
+      "id": "visao",
+      "title": "A nossa visão",
+      "href": "/visao"
+    },
+    {
+      "id": "missao",
+      "title": "A nossa missão",
+      "href": "/missao"
+    },
+    {
+      "id": "iniciativas",
+      "title": "Iniciativas",
+      "href": "/iniciativas",
+      "dropDown": [
+        {
+          "id": "nazare2019",
+          "title": "Nazaré 2019",
+          "href": "/iniciativas/nazare2019"
+        },
+        {
+          "id": "pescaPorUmMarSemLixo",
+          "title": "Pesca por um mar sem lixo",
+          "href": "/iniciativas/pesca-por-um-mar-sem-lixo"
+        },
+        {
+          "id": "acores2019",
+          "title": "Açores 2019",
+          "href": "/iniciativas/acores2019"
+        },
+        {
+          "id": "pescaLimpaPescaLinda",
+          "title": "Pesca limpa, pesca linda",
+          "href": "/iniciativas/pesca-limpa-pesca-linda"
+        },
+        {
+          "id": "portugalContinentalEIlhas",
+          "title": "Portugal continental e ilhas",
+          "href": "/iniciativas/portugal-continental-e-ilhas"
+        }
+      ]
+    },
+    {
+      "id": "contactos",
+      "title": "Contactos",
+      "href": "/contactos"
+    }
+  ],
+  "homePage": {
+    "components": [
+      {
+        "id": "carousel",
+        "content": [
+          {
+            "title": "Atlantic Giants",
+            "color": "white",
+            "imgSrc": "./images/detail_nazare_2.jpg"
+          },
+          {
+            "title": "Visão",
+            "text": "Inspirar toda uma comunidade, local e global a preservar os Oceanos e Natureza",
+            "imgSrc": "./images/home_carousel_2.jpg"
+          },
+          {
+            "title": "Objetivos",
+            "text": "Formar e sensibilizar; Desenvolvimento de ações, projetos e iniciativas",
+            "imgSrc": "./images/home_carousel_3.jpg"
+          }
+        ]
+      },
+      {
+        "id": "homeInfo",
+        "content": [
+          {
+            "title": "Quem somos",
+            "text": "Uma associação sem fins lucrativos, dedicada e comprometida com as gerações futuras",
+            "btnText": "Conhecer a equipa",
+            "btnHref": "/quem-somos",
+            "imgSrc": "./images/hugo_round.png",
+            "imgOption": "plenty"
+          },
+          {
+            "title": "Visão",
+            "text": "Inspirar toda uma comunidade, local e global a preservar os Oceanos e Natureza",
+            "btnText": "Saber mais",
+            "btnHref": "/visao",
+            "imgSrc": "./images/home_waves.png",
+            "imgOption": "plenty"
+          }
+        ]
+      },
+      {
+        "id": "missionComponent",
+        "content": [{
+          "title": "A nossa missão",
+          "href": "/missao"
+        }]
+      },
+      {
+        "id": "verticalTabs",
+        "content": [
+          {
+            "title": "Nazaré 2019",
+            "text": "Sensibilização, incentivo e envolvimento das camadas jovens, das comunidades locais em geral, comunidade surfista e piscatória na luta por um mar saudável",
+            "btnText": "Saber mais",
+            "btnHref": "/iniciativas/nazare2019"
+          },
+          {
+            "title": "Pesca por um mar sem lixo",
+            "text": "Sistema de incentivo e premiação para recolha do lixo produzido a bordo e encontrado no mar. Implementação na Nazaré e expansão para portos geridos pela Docapesca em Portugal Continental",
+            "btnText": "Saber mais",
+            "btnHref": "/iniciativas/pesca-por-um-mar-sem-lixo"
+          },
+          {
+            "title": "Açores 2019",
+            "text": "Ações de sensibilização ambiental junto das escolas e comunidades piscatórias - Câmara Municipal da Praia da Vitória e “Secretaria Regional do Mar, Ciência e Tecnologia dos Açores” ",
+            "btnText": "Saber mais",
+            "btnHref": "/iniciativas/acores2019"
+          },
+          {
+            "title": "Pesca limpa, pesca linda",
+            "text": "Sistema de incentivo para recoleção do lixo produzido a bordo e recolha do lixo encontrado no mar. Implemetação na Ilha Terceira e expansão para os principais portos de pesca dos Açores",
+            "btnText": "Saber mais",
+            "btnHref": "/iniciativas/pesca-limpa-pesca-linda"
+          },
+          {
+            "title": "Portugal continental e ilhas",
+            "text": "Desenvolvimento de SISTEMA DE INCENTIVO, RECOLHA E VALORIZAÇÃO do Plástico em cooperação com governo, autarquias e cadeias de Hipermercados que actuem a nível nacional",
+            "btnText": "Saber mais",
+            "btnHref": "/iniciativas/portugal-continental-e-ilhas"
+          }
+        ]
+      },
+      {
+        "id": "poweredBy",
+        "content": [
+          {
+            "imgSrc": "./images/mercede_benz_io_logo.png",
+            "href": "https://www.mercedes-benz.io",
+            "target": "_blank"
+          },
+          {
+            "imgSrc": "./images/patagonia_logo.png",
+            "href": "https://www.patagonia.com/home/",
+            "target": "_blank"
+          }
+        ]
+      }
+    ]
+  },
+  "detailedPages" : [
+    {
+      "id": "quemSomos",
+      "seo": "Atlantic Giants - Quem Somos",
+      "title": "Quem Somos",
+      "components": [
+        {
+          "id": "carousel",
+          "style": "{\"marginTop\": \"-100px\", \"width\": \"70%\"}",
+          "content": [
+            { "imgSrc": "./images/detail_quem_somos.jpg" }
+          ]
+        },
+        {
+          "id": "text",
+          "style": "{\"marginTop\": \"30px\"}",
+          "content": [
+            { "text": "Somos uma associação sem fins lucrativos, dedicada e comprometida com as gerações futuras.\n\nA associação foi criada em 2019 por Hugo Vau como forma de retribuir ao Oceano os momentos especiais nele passados exercendo as suas atividades profissionais de surfista de ondas gigantes e pescador" }
+          ]
+        },
+        {
+          "id": "grid-component",
+          "customProps": "{\"display\": [1, 2]}",
+          "mode": "round",
+          "content": [
+            {
+              "id": "hugoVau",
+              "title": "Hugo Vau",
+              "subTitle": "Fundador",
+              "imgSrc": "./images/hugo_vau.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visao",
+      "title": "Visão",
+      "text": "Inspirar toda uma comunidade, local e global a preservar os Oceanos e Natureza é o objectivo máximo desta instituição.\n\nUnindo forças, mentes e personalidades através da ciência, cultura e desporto pretendemos aproximar todos os envolvidos à essência do “Ser” no Mar e Natureza.\n\nDesenvolveremos ações específicas de sensibilização, preservação e recuperação do património paisagístico natural e desempenharemos um papel activo no incentivo a ideias e projectos inovadores nesta área.",
+      "components": [
+        {
+          "id": "carousel",
+          "content": [
+            { "imgSrc": "./images/visao_carousel_2.jpg" },
+            { "imgSrc": "./images/visao_carousel_3.jpg" },
+            { "imgSrc": "./images/visao_carousel_1.jpg" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "missao",
+      "title": "Missão",
+      "text": "",
+      "components": [
+        {
+          "id": "missionComponent"
+        },
+        {
+          "id": "bullets",
+          "title": "Objetivos",
+          "customProps": "{\"size\": \"big\"}",
+          "style": "{\"marginTop\": \"50px\"}",
+          "content": [
+            {"text": "Formar e Sensibilizar a sociedade e entidades governamentais para a recuperação e conservação da natureza, com principal foco nos Oceanos, enquanto elemento fundamental de Vida"},
+            {"text": "Desenvolvimento de ações, projectos e iniciativas que apoiem a transição para uma sociedade comprometida com as gerações futuras, procurando explorar as várias dimensões de sustentabilidade ao encontro de uma sociedade ambientalmente responsável, economicamente viável e socialmente justa"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iniciativas",
+      "title": "Iniciativas",
+      "components": [
+        {
+          "id": "grid-component",
+          "content": [
+            {
+              "id": "nazare2019",
+              "title": "Nazaré 2019",
+              "href": "/iniciativas/nazare2019",
+              "imgSrc": "./images/iniciativas_nazare.jpg"
+            },
+            {
+              "id": "pescaPorUmMarSemLixo",
+              "title": "Pesca por um mar sem lixo",
+              "href": "/iniciativas/pesca-por-um-mar-sem-lixo",
+              "imgSrc": "./images/iniciativas_pesca_mar_sem_lixo.jpg"
+            },
+            {
+              "id": "acores2019",
+              "title": "Açores 2019",
+              "href": "/iniciativas/acores2019",
+              "imgSrc": "./images/iniciativas_acores.jpg"
+            },
+            {
+              "id": "pescaLimpaPescaLinda",
+              "title": "Pesca limpa, pesca linda",
+              "href": "/iniciativas/pesca-limpa-pesca-linda",
+              "imgSrc": "./images/iniciativas_pesca_limpa_pesca_linda.jpg"
+            },
+            {
+              "id": "portugalContinentalEIlhas",
+              "title": "Portugal continental e ilhas",
+              "href": "/iniciativas/portugal-continental-e-ilhas",
+              "imgSrc": "./images/iniciativas_portugal_ilhas.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nazare2019",
+      "title": "Nazaré 2019",
+      "text": "Sensibilização, incentivo e envolvimento das camadas jovens, das comunidades locais em geral, comunidade surfista e piscatória na luta por um mar saudável",
+      "components": [
+        {
+          "id": "bullets",
+          "content": [
+            {"text": "Ações informativas e de sensibilização ambiental"},
+            {"text": "Recolha do lixo produzido a bordo e encontrado no mar"},
+            {"text": "Recolha de artes inutilizadas"},
+            {"text": "Mapeamento de zonas de acumulação de resíduos"},
+            {"text": "Ações nas escolas do distrito"},
+            {
+              "text": "Ações no Porto de Abrigo:",
+              "subContent": [
+                { "text": "Limpeza de fundo, superfície e orla do Porto de Abrigo (Maio)" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "carousel",
+          "content": [
+            { "imgSrc": "./images/detail_nazare_1.jpg" },
+            { "imgSrc": "./images/detail_nazare_2.jpg" },
+            { "imgSrc": "./images/detail_nazare_3.jpg" }
+          ]
+        },
+        {
+          "id": "grid-component",
+          "customProps": "{\"maxTilesPerRow\": 4}",
+          "title": "Ver mais iniciativas",
+          "content": [
+            {
+              "id": "pescaPorUmMarSemLixo",
+              "title": "Pesca por um mar sem lixo",
+              "href": "/iniciativas/pesca-por-um-mar-sem-lixo",
+              "imgSrc": "./images/iniciativas_pesca_mar_sem_lixo.jpg"
+            },
+            {
+              "id": "acores2019",
+              "title": "Açores 2019",
+              "href": "/iniciativas/acores2019",
+              "imgSrc": "./images/iniciativas_acores.jpg"
+            },
+            {
+              "id": "pescaLimpaPescaLinda",
+              "title": "Pesca limpa, pesca linda",
+              "href": "/iniciativas/pesca-limpa-pesca-linda",
+              "imgSrc": "./images/iniciativas_pesca_limpa_pesca_linda.jpg"
+            },
+            {
+              "id": "portugalContinentalEIlhas",
+              "title": "Portugal continental e ilhas",
+              "href": "/iniciativas/portugal-continental-e-ilhas",
+              "imgSrc": "./images/iniciativas_portugal_ilhas.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pescaPorUmMarSemLixo",
+      "title": "Pesca por um mar sem lixo",
+      "subTitle": "Em parceria com DOCAPESCA (Entidade Governamental)",
+      "text": "Sistema de incentivo e premiação para recolha do lixo produzido a bordo e encontrado no mar. Implementação na Nazaré e expansão para portos geridos pela Docapesca em Portugal Continental.",
+      "components": [
+        {
+          "id": "bullets",
+          "content": [
+            {"text": "Conceber método e sistema de pesagem agregando a embarcação ao peso de lixo recolhido"},
+            {"text": "Pesagem/Contabilização do lixo por embarcação"},
+            {"text": "Mapear zonas de confluência de resíduos na zona de operação das embarcações"},
+            {"text": "Premiar as eco-embarcações mais eficientes."}
+          ]
+        },
+        {
+          "id": "carousel",
+          "content": [
+            { "imgSrc": "./images/detail_pesca_mar_sem_lixo_1.jpg" },
+            { "imgSrc": "./images/detail_pesca_mar_sem_lixo_2.jpg" }
+          ]
+        },
+        {
+          "id": "grid-component",
+          "customProps": "{\"maxTilesPerRow\": 4}",
+          "title": "Ver mais iniciativas",
+          "content": [
+            {
+              "id": "nazare2019",
+              "title": "Nazaré 2019",
+              "href": "/iniciativas/nazare2019",
+              "imgSrc": "./images/iniciativas_nazare.jpg"
+            },
+            {
+              "id": "acores2019",
+              "title": "Açores 2019",
+              "href": "/iniciativas/acores2019",
+              "imgSrc": "./images/iniciativas_acores.jpg"
+            },
+            {
+              "id": "pescaLimpaPescaLinda",
+              "title": "Pesca limpa, pesca linda",
+              "href": "/iniciativas/pesca-limpa-pesca-linda",
+              "imgSrc": "./images/iniciativas_pesca_limpa_pesca_linda.jpg"
+            },
+            {
+              "id": "portugalContinentalEIlhas",
+              "title": "Portugal continental e ilhas",
+              "href": "/iniciativas/portugal-continental-e-ilhas",
+              "imgSrc": "./images/iniciativas_portugal_ilhas.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acores2019",
+      "title": "Açores 2019",
+      "text": "Ações de sensibilização ambiental junto das escolas e comunidades piscatórias - Câmara Municipal da Praia da Vitória e “Secretaria Regional do Mar, Ciência e Tecnologia dos Açores”",
+      "components": [
+        {
+          "id": "bullets",
+          "content": [
+            {"text": "Ações informativas e de sensibilização ambiental"},
+            {"text": "Recolha do lixo produzido a bordo e encontrado no mar."},
+            {"text": "Recolha de artes inutilizadas"},
+            {"text": "Mapeamento de zonas de acumulação de resíduos"},
+            {"text": "Ações nas escolas do distrito"},
+            {"text": "Ações no Portos de Abrigo e zonas costeiras"}
+          ]
+        },
+        {
+          "id": "carousel",
+          "content": [
+            { "imgSrc": "./images/detail_acores_1.jpg" },
+            { "imgSrc": "./images/detail_acores_2.jpg" },
+            { "imgSrc": "./images/detail_acores_3.jpg" }
+          ]
+        },
+        {
+          "id": "grid-component",
+          "customProps": "{\"maxTilesPerRow\": 4}",
+          "title": "Ver mais iniciativas",
+          "content": [
+            {
+              "id": "nazare2019",
+              "title": "Nazaré 2019",
+              "href": "/iniciativas/nazare2019",
+              "imgSrc": "./images/iniciativas_nazare.jpg"
+            },
+            {
+              "id": "pescaPorUmMarSemLixo",
+              "title": "Pesca por um mar sem lixo",
+              "href": "/iniciativas/pesca-por-um-mar-sem-lixo",
+              "imgSrc": "./images/iniciativas_pesca_mar_sem_lixo.jpg"
+            },
+            {
+              "id": "pescaLimpaPescaLinda",
+              "title": "Pesca limpa, pesca linda",
+              "href": "/iniciativas/pesca-limpa-pesca-linda",
+              "imgSrc": "./images/iniciativas_pesca_limpa_pesca_linda.jpg"
+            },
+            {
+              "id": "portugalContinentalEIlhas",
+              "title": "Portugal continental e ilhas",
+              "href": "/iniciativas/portugal-continental-e-ilhas",
+              "imgSrc": "./images/iniciativas_portugal_ilhas.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pescaLimpaPescaLinda",
+      "title": "Pesca limpa, pesca linda",
+      "subTitle": "CMPV - SECRETARIA REGIONAL DO MAR, CIêNCIA E TECNOLOGIA",
+      "text": "Sistema de incentivo para recoleção do lixo produzido a bordo e recolha do lixo encontrado no mar. Implemetação na Ilha Terceira e expansão para os principais portos de pesca dos Açores:",
+      "components": [
+        {
+          "id": "bullets",
+          "content": [
+            {"text": "Conceber método e sistema de pesagem agregando a embarcação ao peso de lixo recolhido"},
+            {"text": "Pesagem/Contabilização do lixo por embarcação"},
+            {"text": "Mapear zonas de confluência de resíduos na zona de operação das embarcações"},
+            {"text": "Premiar as eco-embarcações mais eficientes"}
+          ]
+        },
+        {
+          "id": "carousel",
+          "content": [
+            { "imgSrc": "./images/detail_pesca_limpa_pesca_linda_1.jpg" },
+            { "imgSrc": "./images/detail_pesca_limpa_pesca_linda_2.jpg" }
+          ]
+        },
+        {
+          "id": "grid-component",
+          "customProps": "{\"maxTilesPerRow\": 4}",
+          "title": "Ver mais iniciativas",
+          "content": [
+            {
+              "id": "nazare2019",
+              "title": "Nazaré 2019",
+              "href": "/iniciativas/nazare2019",
+              "imgSrc": "./images/iniciativas_nazare.jpg"
+            },
+            {
+              "id": "pescaPorUmMarSemLixo",
+              "title": "Pesca por um mar sem lixo",
+              "href": "/iniciativas/pesca-por-um-mar-sem-lixo",
+              "imgSrc": "./images/iniciativas_pesca_mar_sem_lixo.jpg"
+            },
+            {
+              "id": "acores2019",
+              "title": "Açores 2019",
+              "href": "/iniciativas/acores2019",
+              "imgSrc": "./images/iniciativas_acores.jpg"
+            },
+            {
+              "id": "portugalContinentalEIlhas",
+              "title": "Portugal continental e ilhas",
+              "href": "/iniciativas/portugal-continental-e-ilhas",
+              "imgSrc": "./images/iniciativas_portugal_ilhas.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portugalContinentalEIlhas",
+      "title": "Portugal continental e ilhas",
+      "text": "Desenvolvimento de SISTEMA DE INCENTIVO, RECOLHA E VALORIZAçãO do Plástico em cooperação com governo, autarquias e cadeias de Hipermercados que actuem a nível nacional.",
+      "components": [
+        {
+          "id": "carousel",
+          "content": [
+            { "imgSrc": "./images/quem_somos_cut.jpg" }
+          ]
+        },
+        {
+          "id": "grid-component",
+          "customProps": "{\"maxTilesPerRow\": 4}",
+          "title": "Ver mais iniciativas",
+          "content": [
+            {
+              "id": "nazare2019",
+              "title": "Nazaré 2019",
+              "href": "/iniciativas/nazare2019",
+              "imgSrc": "./images/iniciativas_nazare.jpg"
+            },
+            {
+              "id": "pescaPorUmMarSemLixo",
+              "title": "Pesca por um mar sem lixo",
+              "href": "/iniciativas/pesca-por-um-mar-sem-lixo",
+              "imgSrc": "./images/iniciativas_pesca_mar_sem_lixo.jpg"
+            },
+            {
+              "id": "acores2019",
+              "title": "Açores 2019",
+              "href": "/iniciativas/acores2019",
+              "imgSrc": "./images/iniciativas_acores.jpg"
+            },
+            {
+              "id": "pescaLimpaPescaLinda",
+              "title": "Pesca limpa, pesca linda",
+              "href": "/iniciativas/pesca-limpa-pesca-linda",
+              "imgSrc": "./images/iniciativas_pesca_limpa_pesca_linda.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contactos",
+      "title": "Contactos",
+      "text": "Por favor contacte-nos utilizando o formulário abaixo",
+      "components": [
+        {
+          "id": "contactsForm",
+          "style": "{\"marginTop\": \"20px\"}"
+        }
+      ]
+    }
+  ]  
+}

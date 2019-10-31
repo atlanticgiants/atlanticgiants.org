@@ -1,0 +1,40 @@
+.detailed-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 200px;
+  background-color: #f7f7f7;
+  margin-bottom: 100px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.detailed-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  p {
+    width: 100%;
+
+    @media only screen and (min-width : 840px) {
+      width: 70%;
+    }
+  }
+
+  @media only screen and (min-width : 840px) {
+    text-align: left;
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
+.title-top-image {
+  margin: 0;
+  width: 50px;
+  margin-top: -30px;
+  filter: brightness(0%); // make it black
+}

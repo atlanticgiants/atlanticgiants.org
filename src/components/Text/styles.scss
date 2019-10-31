@@ -1,0 +1,16 @@
+.detailed-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  p {
+    width: 70%;
+  }
+
+  @media only screen and (min-width : 840px) {
+    text-align: left;
+  }
+}
+
+.centered {
+  text-align: center;
+}

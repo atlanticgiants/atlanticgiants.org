@@ -1,0 +1,145 @@
+.header {
+  position: fixed;
+  width: 100vw;
+  height: 100px;
+  top: 0;
+  z-index: 99;
+  background-color: white;
+}
+
+.header-wrapper {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  max-width: 1500px;
+
+  .logoType {
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: "column";
+    color: black;
+    height: 100%;
+
+    img {
+      padding: 10px;
+      width: auto;
+      height: 100%;
+      margin: 0;  
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    margin: 0 auto;
+
+    .logoType {
+      margin-left: 5%;
+    }
+  }
+
+}
+
+.header-nav {
+  flex: 1;
+  justify-content: flex-end;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: none !important;
+
+  @media only screen and (min-width: 805px) {
+    display: flex !important;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    margin-right: 200px;
+  }
+
+  &-mobile {
+    position: absolute;
+    display: block !important;
+    width: 100%;
+    height: auto;
+    top: 99px;
+    background: white;
+    
+    // transition
+    transition: all .3s linear;
+    max-height: 0;
+    overflow: hidden;
+    
+    &-open {
+      overflow: scroll;
+      padding: 0 20px 20px 20px;
+      max-height: 100vh;
+      background-color: #f7f7f7;
+      border-bottom: 1px solid #00000059;
+    }
+  }
+}
+
+.dropdown {
+  a {
+    color: black;
+  }
+
+  &::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+  }
+
+  &__item {
+    &--active {
+      font-weight: bold;
+      color: black;
+    }
+  }
+}
+
+.header-dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+
+.header-nav-link {
+  display: block;
+  padding: .5rem 1rem;
+
+  &--active {
+    font-weight: bold;
+    color: black;
+  }
+}
+
+.header-nav-button.header-nav-button {
+  display: block !important;
+  cursor: pointer;
+  margin-left: auto !important;
+  margin-right: 20px;
+  color: black;
+  @media only screen and (min-width: 805px) {
+    display: none !important;
+  }
+}
+
+.nav-sub-item {
+  margin-left: 20px;
+}
