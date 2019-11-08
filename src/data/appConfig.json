@@ -3,54 +3,54 @@
     {
       "id": "quemSomos",
       "title": "Quem somos",
-      "href": "/quem-somos"
+      "href": "quem-somos"
     },
     {
       "id": "visao",
       "title": "A nossa visão",
-      "href": "/visao"
+      "href": "visao"
     },
     {
       "id": "missao",
       "title": "A nossa missão",
-      "href": "/missao"
+      "href": "missao"
     },
     {
       "id": "iniciativas",
       "title": "Iniciativas",
-      "href": "/iniciativas",
+      "href": "iniciativas",
       "dropDown": [
         {
           "id": "nazare2019",
           "title": "Nazaré 2019",
-          "href": "/iniciativas/nazare2019"
+          "href": "iniciativas/nazare2019"
         },
         {
           "id": "pescaPorUmMarSemLixo",
           "title": "Pesca por um mar sem lixo",
-          "href": "/iniciativas/pesca-por-um-mar-sem-lixo"
+          "href": "iniciativas/pesca-por-um-mar-sem-lixo"
         },
         {
           "id": "acores2019",
           "title": "Açores 2019",
-          "href": "/iniciativas/acores2019"
+          "href": "iniciativas/acores2019"
         },
         {
           "id": "pescaLimpaPescaLinda",
           "title": "Pesca limpa, pesca linda",
-          "href": "/iniciativas/pesca-limpa-pesca-linda"
+          "href": "iniciativas/pesca-limpa-pesca-linda"
         },
         {
           "id": "portugalContinentalEIlhas",
           "title": "Portugal continental e ilhas",
-          "href": "/iniciativas/portugal-continental-e-ilhas"
+          "href": "iniciativas/portugal-continental-e-ilhas"
         }
       ]
     },
     {
       "id": "contactos",
       "title": "Contactos",
-      "href": "/contactos"
+      "href": "contactos"
     }
   ],
   "homePage": {
@@ -82,7 +82,7 @@
             "title": "Quem somos",
             "text": "Uma associação sem fins lucrativos, dedicada e comprometida com as gerações futuras",
             "btnText": "Conhecer a equipa",
-            "btnHref": "/quem-somos",
+            "btnHref": "quem-somos",
             "imgSrc": "./images/hugo_round.png",
             "imgOption": "plenty"
           },
@@ -90,7 +90,7 @@
             "title": "Visão",
             "text": "Inspirar toda uma comunidade, local e global a preservar os Oceanos e Natureza",
             "btnText": "Saber mais",
-            "btnHref": "/visao",
+            "btnHref": "visao",
             "imgSrc": "./images/home_waves.png",
             "imgOption": "plenty"
           }
@@ -100,7 +100,7 @@
         "id": "missionComponent",
         "content": [{
           "title": "A nossa missão",
-          "href": "/missao"
+          "href": "missao"
         }]
       },
       {
@@ -110,31 +110,31 @@
             "title": "Nazaré 2019",
             "text": "Sensibilização, incentivo e envolvimento das camadas jovens, das comunidades locais em geral, comunidade surfista e piscatória na luta por um mar saudável",
             "btnText": "Saber mais",
-            "btnHref": "/iniciativas/nazare2019"
+            "btnHref": "iniciativas/nazare2019"
           },
           {
             "title": "Pesca por um mar sem lixo",
             "text": "Sistema de incentivo e premiação para recolha do lixo produzido a bordo e encontrado no mar. Implementação na Nazaré e expansão para portos geridos pela Docapesca em Portugal Continental",
             "btnText": "Saber mais",
-            "btnHref": "/iniciativas/pesca-por-um-mar-sem-lixo"
+            "btnHref": "iniciativas/pesca-por-um-mar-sem-lixo"
           },
           {
             "title": "Açores 2019",
             "text": "Ações de sensibilização ambiental junto das escolas e comunidades piscatórias - Câmara Municipal da Praia da Vitória e “Secretaria Regional do Mar, Ciência e Tecnologia dos Açores” ",
             "btnText": "Saber mais",
-            "btnHref": "/iniciativas/acores2019"
+            "btnHref": "iniciativas/acores2019"
           },
           {
             "title": "Pesca limpa, pesca linda",
             "text": "Sistema de incentivo para recoleção do lixo produzido a bordo e recolha do lixo encontrado no mar. Implemetação na Ilha Terceira e expansão para os principais portos de pesca dos Açores",
             "btnText": "Saber mais",
-            "btnHref": "/iniciativas/pesca-limpa-pesca-linda"
+            "btnHref": "iniciativas/pesca-limpa-pesca-linda"
           },
           {
             "title": "Portugal continental e ilhas",
             "text": "Desenvolvimento de SISTEMA DE INCENTIVO, RECOLHA E VALORIZAÇÃO do Plástico em cooperação com governo, autarquias e cadeias de Hipermercados que actuem a nível nacional",
             "btnText": "Saber mais",
-            "btnHref": "/iniciativas/portugal-continental-e-ilhas"
+            "btnHref": "iniciativas/portugal-continental-e-ilhas"
           }
         ]
       },
@@ -158,7 +158,7 @@
   "detailedPages" : [
     {
       "id": "quemSomos",
-      "seo": "Atlantic Giants - Quem Somos",
+      "seo": "Quem Somos",
       "title": "Quem Somos",
       "components": [
         {
@@ -235,31 +235,31 @@
             {
               "id": "nazare2019",
               "title": "Nazaré 2019",
-              "href": "/iniciativas/nazare2019",
+              "href": "iniciativas/nazare2019",
               "imgSrc": "./images/iniciativas_nazare.jpg"
             },
             {
               "id": "pescaPorUmMarSemLixo",
               "title": "Pesca por um mar sem lixo",
-              "href": "/iniciativas/pesca-por-um-mar-sem-lixo",
+              "href": "iniciativas/pesca-por-um-mar-sem-lixo",
               "imgSrc": "./images/iniciativas_pesca_mar_sem_lixo.jpg"
             },
             {
               "id": "acores2019",
               "title": "Açores 2019",
-              "href": "/iniciativas/acores2019",
+              "href": "iniciativas/acores2019",
               "imgSrc": "./images/iniciativas_acores.jpg"
             },
             {
               "id": "pescaLimpaPescaLinda",
               "title": "Pesca limpa, pesca linda",
-              "href": "/iniciativas/pesca-limpa-pesca-linda",
+              "href": "iniciativas/pesca-limpa-pesca-linda",
               "imgSrc": "./images/iniciativas_pesca_limpa_pesca_linda.jpg"
             },
             {
               "id": "portugalContinentalEIlhas",
               "title": "Portugal continental e ilhas",
-              "href": "/iniciativas/portugal-continental-e-ilhas",
+              "href": "iniciativas/portugal-continental-e-ilhas",
               "imgSrc": "./images/iniciativas_portugal_ilhas.jpg"
             }
           ]
@@ -303,25 +303,25 @@
             {
               "id": "pescaPorUmMarSemLixo",
               "title": "Pesca por um mar sem lixo",
-              "href": "/iniciativas/pesca-por-um-mar-sem-lixo",
+              "href": "iniciativas/pesca-por-um-mar-sem-lixo",
               "imgSrc": "./images/iniciativas_pesca_mar_sem_lixo.jpg"
             },
             {
               "id": "acores2019",
               "title": "Açores 2019",
-              "href": "/iniciativas/acores2019",
+              "href": "iniciativas/acores2019",
               "imgSrc": "./images/iniciativas_acores.jpg"
             },
             {
               "id": "pescaLimpaPescaLinda",
               "title": "Pesca limpa, pesca linda",
-              "href": "/iniciativas/pesca-limpa-pesca-linda",
+              "href": "iniciativas/pesca-limpa-pesca-linda",
               "imgSrc": "./images/iniciativas_pesca_limpa_pesca_linda.jpg"
             },
             {
               "id": "portugalContinentalEIlhas",
               "title": "Portugal continental e ilhas",
-              "href": "/iniciativas/portugal-continental-e-ilhas",
+              "href": "iniciativas/portugal-continental-e-ilhas",
               "imgSrc": "./images/iniciativas_portugal_ilhas.jpg"
             }
           ]
@@ -358,25 +358,25 @@
             {
               "id": "nazare2019",
               "title": "Nazaré 2019",
-              "href": "/iniciativas/nazare2019",
+              "href": "iniciativas/nazare2019",
               "imgSrc": "./images/iniciativas_nazare.jpg"
             },
             {
               "id": "acores2019",
               "title": "Açores 2019",
-              "href": "/iniciativas/acores2019",
+              "href": "iniciativas/acores2019",
               "imgSrc": "./images/iniciativas_acores.jpg"
             },
             {
               "id": "pescaLimpaPescaLinda",
               "title": "Pesca limpa, pesca linda",
-              "href": "/iniciativas/pesca-limpa-pesca-linda",
+              "href": "iniciativas/pesca-limpa-pesca-linda",
               "imgSrc": "./images/iniciativas_pesca_limpa_pesca_linda.jpg"
             },
             {
               "id": "portugalContinentalEIlhas",
               "title": "Portugal continental e ilhas",
-              "href": "/iniciativas/portugal-continental-e-ilhas",
+              "href": "iniciativas/portugal-continental-e-ilhas",
               "imgSrc": "./images/iniciativas_portugal_ilhas.jpg"
             }
           ]
@@ -415,25 +415,25 @@
             {
               "id": "nazare2019",
               "title": "Nazaré 2019",
-              "href": "/iniciativas/nazare2019",
+              "href": "iniciativas/nazare2019",
               "imgSrc": "./images/iniciativas_nazare.jpg"
             },
             {
               "id": "pescaPorUmMarSemLixo",
               "title": "Pesca por um mar sem lixo",
-              "href": "/iniciativas/pesca-por-um-mar-sem-lixo",
+              "href": "iniciativas/pesca-por-um-mar-sem-lixo",
               "imgSrc": "./images/iniciativas_pesca_mar_sem_lixo.jpg"
             },
             {
               "id": "pescaLimpaPescaLinda",
               "title": "Pesca limpa, pesca linda",
-              "href": "/iniciativas/pesca-limpa-pesca-linda",
+              "href": "iniciativas/pesca-limpa-pesca-linda",
               "imgSrc": "./images/iniciativas_pesca_limpa_pesca_linda.jpg"
             },
             {
               "id": "portugalContinentalEIlhas",
               "title": "Portugal continental e ilhas",
-              "href": "/iniciativas/portugal-continental-e-ilhas",
+              "href": "iniciativas/portugal-continental-e-ilhas",
               "imgSrc": "./images/iniciativas_portugal_ilhas.jpg"
             }
           ]
@@ -470,25 +470,25 @@
             {
               "id": "nazare2019",
               "title": "Nazaré 2019",
-              "href": "/iniciativas/nazare2019",
+              "href": "iniciativas/nazare2019",
               "imgSrc": "./images/iniciativas_nazare.jpg"
             },
             {
               "id": "pescaPorUmMarSemLixo",
               "title": "Pesca por um mar sem lixo",
-              "href": "/iniciativas/pesca-por-um-mar-sem-lixo",
+              "href": "iniciativas/pesca-por-um-mar-sem-lixo",
               "imgSrc": "./images/iniciativas_pesca_mar_sem_lixo.jpg"
             },
             {
               "id": "acores2019",
               "title": "Açores 2019",
-              "href": "/iniciativas/acores2019",
+              "href": "iniciativas/acores2019",
               "imgSrc": "./images/iniciativas_acores.jpg"
             },
             {
               "id": "portugalContinentalEIlhas",
               "title": "Portugal continental e ilhas",
-              "href": "/iniciativas/portugal-continental-e-ilhas",
+              "href": "iniciativas/portugal-continental-e-ilhas",
               "imgSrc": "./images/iniciativas_portugal_ilhas.jpg"
             }
           ]
@@ -514,25 +514,25 @@
             {
               "id": "nazare2019",
               "title": "Nazaré 2019",
-              "href": "/iniciativas/nazare2019",
+              "href": "iniciativas/nazare2019",
               "imgSrc": "./images/iniciativas_nazare.jpg"
             },
             {
               "id": "pescaPorUmMarSemLixo",
               "title": "Pesca por um mar sem lixo",
-              "href": "/iniciativas/pesca-por-um-mar-sem-lixo",
+              "href": "iniciativas/pesca-por-um-mar-sem-lixo",
               "imgSrc": "./images/iniciativas_pesca_mar_sem_lixo.jpg"
             },
             {
               "id": "acores2019",
               "title": "Açores 2019",
-              "href": "/iniciativas/acores2019",
+              "href": "iniciativas/acores2019",
               "imgSrc": "./images/iniciativas_acores.jpg"
             },
             {
               "id": "pescaLimpaPescaLinda",
               "title": "Pesca limpa, pesca linda",
-              "href": "/iniciativas/pesca-limpa-pesca-linda",
+              "href": "iniciativas/pesca-limpa-pesca-linda",
               "imgSrc": "./images/iniciativas_pesca_limpa_pesca_linda.jpg"
             }
           ]
