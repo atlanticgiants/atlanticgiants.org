@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Atlantic Giants`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Uma associação sem fins lucrativos, com vontade de inspirar toda uma comunidade, local e global a preservar os Oceanos e Natureza.`,
+    author: `@mercedes-benz.io`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
