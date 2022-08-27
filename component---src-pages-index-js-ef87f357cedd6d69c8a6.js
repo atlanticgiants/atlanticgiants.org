@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{143:function(n,a,e){"use strict";e.r(a),e.d(a,"query",function(){return s});var t=e(183),o=e(0),r=e.n(o),c=e(154),u=e(153),s="4083674472";a.default=function(n){var a=n.data.dataJson.homePage.components;return r.a.createElement(c.a,null,r.a.createElement(u.a,{keywords:["Atlantic Giants","Hugo Vau","Oceans","Oceanos","Nazaré"]}),a&&a.map(function(n){return Object(t.a)(n.id,n)}))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-ef87f357cedd6d69c8a6.js.map
