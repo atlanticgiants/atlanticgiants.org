@@ -16,7 +16,7 @@ The association was created in 2019 by Hugo Vau as a way to give back to the Oce
 - Tiago Rechau ([GitHub](https://github.com/TiagoRechau))
 - Andrés Chavarría ([LinkedIn](https://www.linkedin.com/in/afchavarria/))
 - Simão Fontes ([GitHub](https://github.com/sfontes))
-- Luís Mendes ([GitHub]([https://github.com/lmmendes]))
+- Luís Mendes ([GitHub]([https://github.com/lmmendes])
 
 ## Contributing
 
