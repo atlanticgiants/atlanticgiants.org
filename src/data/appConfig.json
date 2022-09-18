@@ -142,11 +142,6 @@
         "id": "poweredBy",
         "content": [
           {
-            "imgSrc": "./images/mercede_benz_io_logo.png",
-            "href": "https://www.mercedes-benz.io",
-            "target": "_blank"
-          },
-          {
             "imgSrc": "./images/patagonia_logo.png",
             "href": "https://www.patagonia.com/home/",
             "target": "_blank"
