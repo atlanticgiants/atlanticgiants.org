@@ -44,7 +44,7 @@ const Layout = ({ children }) => (
         </div>
         <footer className='footer'>
           <p> Atlantic Giants 2019</p>
-          <p>{'made with ❤️ by'} <a target='_blank' rel='noopener noreferrer' href='https://www.mercedes-benz.io'>Mercedes-Benz.io</a></p>
+          <p>{'made with ❤️ by'} <a target='_blank' rel='noopener noreferrer' href='https://github.com/atlanticgiants/atlanticgiants.org#contributors'>volunteers</a></p>
         </footer>
       </>
     )}
